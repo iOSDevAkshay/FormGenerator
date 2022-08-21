@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BABAF91028AD47B500AEDD66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF90F28AD47B500AEDD66 /* AppDelegate.swift */; };
+		BABAF91728AD47B500AEDD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABAF91528AD47B500AEDD66 /* Main.storyboard */; };
+		BABAF91928AD47B700AEDD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABAF91828AD47B700AEDD66 /* Assets.xcassets */; };
+		BABAF91C28AD47B700AEDD66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABAF91A28AD47B700AEDD66 /* LaunchScreen.storyboard */; };
+		BABAF93A28AF5A4D00AEDD66 /* AnimatedFieldFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF92728AF5A4D00AEDD66 /* AnimatedFieldFormat.swift */; };
+		BABAF93C28AF5A4D00AEDD66 /* AnimatedField+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF92928AF5A4D00AEDD66 /* AnimatedField+TextFieldDelegate.swift */; };
+		BABAF93D28AF5A4D00AEDD66 /* AnimatedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF92A28AF5A4D00AEDD66 /* AnimatedField.swift */; };
+		BABAF93E28AF5A4D00AEDD66 /* IconsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF92C28AF5A4D00AEDD66 /* IconsLibrary.swift */; };
+		BABAF93F28AF5A4D00AEDD66 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF92E28AF5A4D00AEDD66 /* Date+Format.swift */; };
+		BABAF94028AF5A4D00AEDD66 /* String+RegEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF92F28AF5A4D00AEDD66 /* String+RegEx.swift */; };
+		BABAF94128AF5A4D00AEDD66 /* UIView+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF93028AF5A4D00AEDD66 /* UIView+Shake.swift */; };
+		BABAF94228AF5A4D00AEDD66 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF93128AF5A4D00AEDD66 /* UIView+Nib.swift */; };
+		BABAF94328AF5A4D00AEDD66 /* AnimatedFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF93228AF5A4D00AEDD66 /* AnimatedFieldType.swift */; };
+		BABAF94428AF5A4D00AEDD66 /* AnimatedField+TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF93328AF5A4D00AEDD66 /* AnimatedField+TextViewDelegate.swift */; };
+		BABAF94528AF5A4D00AEDD66 /* AnimatedFieldAlertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF93428AF5A4D00AEDD66 /* AnimatedFieldAlertPosition.swift */; };
+		BABAF94628AF5A4D00AEDD66 /* AnimatedField.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABAF93528AF5A4D00AEDD66 /* AnimatedField.xib */; };
+		BABAF94728AF5A4D00AEDD66 /* AnimatedField+UIPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF93628AF5A4D00AEDD66 /* AnimatedField+UIPickerViewDelegate.swift */; };
+		BABAF94828AF5A4D00AEDD66 /* AnimatedField+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF93728AF5A4D00AEDD66 /* AnimatedField+Protocols.swift */; };
+		BABAF94E28AF620800AEDD66 /* FormGeneratorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF94D28AF620800AEDD66 /* FormGeneratorConstants.swift */; };
+		BABAF95A28AF6D8B00AEDD66 /* DSFStepperView+macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF95028AF6D8B00AEDD66 /* DSFStepperView+macOS.swift */; };
+		BABAF95B28AF6D8B00AEDD66 /* DSFStepperView+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF95128AF6D8B00AEDD66 /* DSFStepperView+SwiftUI.swift */; };
+		BABAF95C28AF6D8B00AEDD66 /* DSFStepperView+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF95228AF6D8B00AEDD66 /* DSFStepperView+iOS.swift */; };
+		BABAF95D28AF6D8B00AEDD66 /* DSFDelayedRepeatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF95428AF6D8B00AEDD66 /* DSFDelayedRepeatingButton.swift */; };
+		BABAF95E28AF6D8B00AEDD66 /* ClampedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF95528AF6D8B00AEDD66 /* ClampedValue.swift */; };
+		BABAF95F28AF6D8B00AEDD66 /* DSFStepperView+textfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF95628AF6D8B00AEDD66 /* DSFStepperView+textfield.swift */; };
+		BABAF96028AF6D8B00AEDD66 /* DSFStepperView+utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF95728AF6D8B00AEDD66 /* DSFStepperView+utils.swift */; };
+		BABAF96128AF6D8B00AEDD66 /* DSFStepperView+localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF95828AF6D8B00AEDD66 /* DSFStepperView+localization.swift */; };
+		BABAF96228AF6D8B00AEDD66 /* DSFStepperView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF95928AF6D8B00AEDD66 /* DSFStepperView+Delegate.swift */; };
+		BABAF96928AF8D6100AEDD66 /* Poppins-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BABAF96428AF8D6100AEDD66 /* Poppins-Light.otf */; };
+		BABAF96A28AF8D6100AEDD66 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BABAF96528AF8D6100AEDD66 /* Poppins-Medium.otf */; };
+		BABAF96B28AF8D6100AEDD66 /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BABAF96628AF8D6100AEDD66 /* Poppins-SemiBold.otf */; };
+		BABAF96C28AF8D6100AEDD66 /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BABAF96728AF8D6100AEDD66 /* Poppins-Bold.otf */; };
+		BABAF96D28AF8D6100AEDD66 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BABAF96828AF8D6100AEDD66 /* Poppins-Regular.otf */; };
+		BABAF96F28B11E3500AEDD66 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF96E28B11E3500AEDD66 /* Utility.swift */; };
+		BABAF97228B20A1200AEDD66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF97128B20A1200AEDD66 /* ViewController.swift */; };
+		BABAF97428B20A2300AEDD66 /* SecondFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAF97328B20A2300AEDD66 /* SecondFormViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BABAF90C28AD47B500AEDD66 /* FormGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABAF90F28AD47B500AEDD66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BABAF91628AD47B500AEDD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BABAF91828AD47B700AEDD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BABAF91B28AD47B700AEDD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BABAF91D28AD47B700AEDD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABAF92728AF5A4D00AEDD66 /* AnimatedFieldFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedFieldFormat.swift; sourceTree = "<group>"; };
+		BABAF92928AF5A4D00AEDD66 /* AnimatedField+TextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatedField+TextFieldDelegate.swift"; sourceTree = "<group>"; };
+		BABAF92A28AF5A4D00AEDD66 /* AnimatedField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedField.swift; sourceTree = "<group>"; };
+		BABAF92C28AF5A4D00AEDD66 /* IconsLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsLibrary.swift; sourceTree = "<group>"; };
+		BABAF92E28AF5A4D00AEDD66 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		BABAF92F28AF5A4D00AEDD66 /* String+RegEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+RegEx.swift"; sourceTree = "<group>"; };
+		BABAF93028AF5A4D00AEDD66 /* UIView+Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shake.swift"; sourceTree = "<group>"; };
+		BABAF93128AF5A4D00AEDD66 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		BABAF93228AF5A4D00AEDD66 /* AnimatedFieldType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedFieldType.swift; sourceTree = "<group>"; };
+		BABAF93328AF5A4D00AEDD66 /* AnimatedField+TextViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatedField+TextViewDelegate.swift"; sourceTree = "<group>"; };
+		BABAF93428AF5A4D00AEDD66 /* AnimatedFieldAlertPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedFieldAlertPosition.swift; sourceTree = "<group>"; };
+		BABAF93528AF5A4D00AEDD66 /* AnimatedField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimatedField.xib; sourceTree = "<group>"; };
+		BABAF93628AF5A4D00AEDD66 /* AnimatedField+UIPickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatedField+UIPickerViewDelegate.swift"; sourceTree = "<group>"; };
+		BABAF93728AF5A4D00AEDD66 /* AnimatedField+Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatedField+Protocols.swift"; sourceTree = "<group>"; };
+		BABAF94D28AF620800AEDD66 /* FormGeneratorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormGeneratorConstants.swift; sourceTree = "<group>"; };
+		BABAF95028AF6D8B00AEDD66 /* DSFStepperView+macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFStepperView+macOS.swift"; sourceTree = "<group>"; };
+		BABAF95128AF6D8B00AEDD66 /* DSFStepperView+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFStepperView+SwiftUI.swift"; sourceTree = "<group>"; };
+		BABAF95228AF6D8B00AEDD66 /* DSFStepperView+iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFStepperView+iOS.swift"; sourceTree = "<group>"; };
+		BABAF95428AF6D8B00AEDD66 /* DSFDelayedRepeatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSFDelayedRepeatingButton.swift; sourceTree = "<group>"; };
+		BABAF95528AF6D8B00AEDD66 /* ClampedValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClampedValue.swift; sourceTree = "<group>"; };
+		BABAF95628AF6D8B00AEDD66 /* DSFStepperView+textfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFStepperView+textfield.swift"; sourceTree = "<group>"; };
+		BABAF95728AF6D8B00AEDD66 /* DSFStepperView+utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFStepperView+utils.swift"; sourceTree = "<group>"; };
+		BABAF95828AF6D8B00AEDD66 /* DSFStepperView+localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFStepperView+localization.swift"; sourceTree = "<group>"; };
+		BABAF95928AF6D8B00AEDD66 /* DSFStepperView+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DSFStepperView+Delegate.swift"; sourceTree = "<group>"; };
+		BABAF96428AF8D6100AEDD66 /* Poppins-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.otf"; sourceTree = "<group>"; };
+		BABAF96528AF8D6100AEDD66 /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.otf"; sourceTree = "<group>"; };
+		BABAF96628AF8D6100AEDD66 /* Poppins-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.otf"; sourceTree = "<group>"; };
+		BABAF96728AF8D6100AEDD66 /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
+		BABAF96828AF8D6100AEDD66 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
+		BABAF96E28B11E3500AEDD66 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		BABAF97128B20A1200AEDD66 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BABAF97328B20A2300AEDD66 /* SecondFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFormViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BABAF90928AD47B500AEDD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BABAF90328AD47B500AEDD66 = {
+			isa = PBXGroup;
+			children = (
+				BABAF90E28AD47B500AEDD66 /* FormGenerator */,
+				BABAF90D28AD47B500AEDD66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BABAF90D28AD47B500AEDD66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF90C28AD47B500AEDD66 /* FormGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BABAF90E28AD47B500AEDD66 /* FormGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF97028B20A1200AEDD66 /* FormsViewControllers */,
+				BABAF96328AF8D6100AEDD66 /* Fonts */,
+				BABAF94F28AF6D8B00AEDD66 /* DSFStepperView */,
+				BABAF94A28AF606A00AEDD66 /* Constants */,
+				BABAF92528AF5A4D00AEDD66 /* AnimatedField */,
+				BABAF90F28AD47B500AEDD66 /* AppDelegate.swift */,
+				BABAF91528AD47B500AEDD66 /* Main.storyboard */,
+				BABAF91828AD47B700AEDD66 /* Assets.xcassets */,
+				BABAF91A28AD47B700AEDD66 /* LaunchScreen.storyboard */,
+				BABAF91D28AD47B700AEDD66 /* Info.plist */,
+			);
+			path = FormGenerator;
+			sourceTree = "<group>";
+		};
+		BABAF92528AF5A4D00AEDD66 /* AnimatedField */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF92628AF5A4D00AEDD66 /* Classes */,
+			);
+			path = AnimatedField;
+			sourceTree = "<group>";
+		};
+		BABAF92628AF5A4D00AEDD66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF92728AF5A4D00AEDD66 /* AnimatedFieldFormat.swift */,
+				BABAF92928AF5A4D00AEDD66 /* AnimatedField+TextFieldDelegate.swift */,
+				BABAF92A28AF5A4D00AEDD66 /* AnimatedField.swift */,
+				BABAF92B28AF5A4D00AEDD66 /* Utils */,
+				BABAF92D28AF5A4D00AEDD66 /* Extensions */,
+				BABAF93228AF5A4D00AEDD66 /* AnimatedFieldType.swift */,
+				BABAF93328AF5A4D00AEDD66 /* AnimatedField+TextViewDelegate.swift */,
+				BABAF93428AF5A4D00AEDD66 /* AnimatedFieldAlertPosition.swift */,
+				BABAF93528AF5A4D00AEDD66 /* AnimatedField.xib */,
+				BABAF93628AF5A4D00AEDD66 /* AnimatedField+UIPickerViewDelegate.swift */,
+				BABAF93728AF5A4D00AEDD66 /* AnimatedField+Protocols.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BABAF92B28AF5A4D00AEDD66 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF92C28AF5A4D00AEDD66 /* IconsLibrary.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BABAF92D28AF5A4D00AEDD66 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF92E28AF5A4D00AEDD66 /* Date+Format.swift */,
+				BABAF92F28AF5A4D00AEDD66 /* String+RegEx.swift */,
+				BABAF93028AF5A4D00AEDD66 /* UIView+Shake.swift */,
+				BABAF93128AF5A4D00AEDD66 /* UIView+Nib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BABAF94A28AF606A00AEDD66 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF94D28AF620800AEDD66 /* FormGeneratorConstants.swift */,
+				BABAF96E28B11E3500AEDD66 /* Utility.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BABAF94F28AF6D8B00AEDD66 /* DSFStepperView */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF95028AF6D8B00AEDD66 /* DSFStepperView+macOS.swift */,
+				BABAF95128AF6D8B00AEDD66 /* DSFStepperView+SwiftUI.swift */,
+				BABAF95228AF6D8B00AEDD66 /* DSFStepperView+iOS.swift */,
+				BABAF95328AF6D8B00AEDD66 /* private */,
+				BABAF95928AF6D8B00AEDD66 /* DSFStepperView+Delegate.swift */,
+			);
+			path = DSFStepperView;
+			sourceTree = "<group>";
+		};
+		BABAF95328AF6D8B00AEDD66 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF95428AF6D8B00AEDD66 /* DSFDelayedRepeatingButton.swift */,
+				BABAF95528AF6D8B00AEDD66 /* ClampedValue.swift */,
+				BABAF95628AF6D8B00AEDD66 /* DSFStepperView+textfield.swift */,
+				BABAF95728AF6D8B00AEDD66 /* DSFStepperView+utils.swift */,
+				BABAF95828AF6D8B00AEDD66 /* DSFStepperView+localization.swift */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		BABAF96328AF8D6100AEDD66 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF96428AF8D6100AEDD66 /* Poppins-Light.otf */,
+				BABAF96528AF8D6100AEDD66 /* Poppins-Medium.otf */,
+				BABAF96628AF8D6100AEDD66 /* Poppins-SemiBold.otf */,
+				BABAF96728AF8D6100AEDD66 /* Poppins-Bold.otf */,
+				BABAF96828AF8D6100AEDD66 /* Poppins-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BABAF97028B20A1200AEDD66 /* FormsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BABAF97128B20A1200AEDD66 /* ViewController.swift */,
+				BABAF97328B20A2300AEDD66 /* SecondFormViewController.swift */,
+			);
+			path = FormsViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BABAF90B28AD47B500AEDD66 /* FormGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABAF92028AD47B700AEDD66 /* Build configuration list for PBXNativeTarget "FormGenerator" */;
+			buildPhases = (
+				BABAF90828AD47B500AEDD66 /* Sources */,
+				BABAF90928AD47B500AEDD66 /* Frameworks */,
+				BABAF90A28AD47B500AEDD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormGenerator;
+			productName = FormGenerator;
+			productReference = BABAF90C28AD47B500AEDD66 /* FormGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BABAF90428AD47B500AEDD66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BABAF90B28AD47B500AEDD66 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = BABAF90728AD47B500AEDD66 /* Build configuration list for PBXProject "FormGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BABAF90328AD47B500AEDD66;
+			productRefGroup = BABAF90D28AD47B500AEDD66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BABAF90B28AD47B500AEDD66 /* FormGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BABAF90A28AD47B500AEDD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABAF94628AF5A4D00AEDD66 /* AnimatedField.xib in Resources */,
+				BABAF96928AF8D6100AEDD66 /* Poppins-Light.otf in Resources */,
+				BABAF96A28AF8D6100AEDD66 /* Poppins-Medium.otf in Resources */,
+				BABAF91C28AD47B700AEDD66 /* LaunchScreen.storyboard in Resources */,
+				BABAF91928AD47B700AEDD66 /* Assets.xcassets in Resources */,
+				BABAF91728AD47B500AEDD66 /* Main.storyboard in Resources */,
+				BABAF96D28AF8D6100AEDD66 /* Poppins-Regular.otf in Resources */,
+				BABAF96C28AF8D6100AEDD66 /* Poppins-Bold.otf in Resources */,
+				BABAF96B28AF8D6100AEDD66 /* Poppins-SemiBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BABAF90828AD47B500AEDD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABAF93A28AF5A4D00AEDD66 /* AnimatedFieldFormat.swift in Sources */,
+				BABAF96228AF6D8B00AEDD66 /* DSFStepperView+Delegate.swift in Sources */,
+				BABAF95A28AF6D8B00AEDD66 /* DSFStepperView+macOS.swift in Sources */,
+				BABAF95E28AF6D8B00AEDD66 /* ClampedValue.swift in Sources */,
+				BABAF94728AF5A4D00AEDD66 /* AnimatedField+UIPickerViewDelegate.swift in Sources */,
+				BABAF91028AD47B500AEDD66 /* AppDelegate.swift in Sources */,
+				BABAF94428AF5A4D00AEDD66 /* AnimatedField+TextViewDelegate.swift in Sources */,
+				BABAF94028AF5A4D00AEDD66 /* String+RegEx.swift in Sources */,
+				BABAF97228B20A1200AEDD66 /* ViewController.swift in Sources */,
+				BABAF94128AF5A4D00AEDD66 /* UIView+Shake.swift in Sources */,
+				BABAF96128AF6D8B00AEDD66 /* DSFStepperView+localization.swift in Sources */,
+				BABAF96028AF6D8B00AEDD66 /* DSFStepperView+utils.swift in Sources */,
+				BABAF95B28AF6D8B00AEDD66 /* DSFStepperView+SwiftUI.swift in Sources */,
+				BABAF93C28AF5A4D00AEDD66 /* AnimatedField+TextFieldDelegate.swift in Sources */,
+				BABAF94228AF5A4D00AEDD66 /* UIView+Nib.swift in Sources */,
+				BABAF95F28AF6D8B00AEDD66 /* DSFStepperView+textfield.swift in Sources */,
+				BABAF94E28AF620800AEDD66 /* FormGeneratorConstants.swift in Sources */,
+				BABAF97428B20A2300AEDD66 /* SecondFormViewController.swift in Sources */,
+				BABAF95C28AF6D8B00AEDD66 /* DSFStepperView+iOS.swift in Sources */,
+				BABAF93E28AF5A4D00AEDD66 /* IconsLibrary.swift in Sources */,
+				BABAF95D28AF6D8B00AEDD66 /* DSFDelayedRepeatingButton.swift in Sources */,
+				BABAF96F28B11E3500AEDD66 /* Utility.swift in Sources */,
+				BABAF94528AF5A4D00AEDD66 /* AnimatedFieldAlertPosition.swift in Sources */,
+				BABAF93F28AF5A4D00AEDD66 /* Date+Format.swift in Sources */,
+				BABAF93D28AF5A4D00AEDD66 /* AnimatedField.swift in Sources */,
+				BABAF94328AF5A4D00AEDD66 /* AnimatedFieldType.swift in Sources */,
+				BABAF94828AF5A4D00AEDD66 /* AnimatedField+Protocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BABAF91528AD47B500AEDD66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BABAF91628AD47B500AEDD66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BABAF91A28AD47B700AEDD66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BABAF91B28AD47B700AEDD66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BABAF91E28AD47B700AEDD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BABAF91F28AD47B700AEDD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BABAF92128AD47B700AEDD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FormGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOSFactory.FormGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BABAF92228AD47B700AEDD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FormGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOSFactory.FormGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BABAF90728AD47B500AEDD66 /* Build configuration list for PBXProject "FormGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABAF91E28AD47B700AEDD66 /* Debug */,
+				BABAF91F28AD47B700AEDD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BABAF92028AD47B700AEDD66 /* Build configuration list for PBXNativeTarget "FormGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABAF92128AD47B700AEDD66 /* Debug */,
+				BABAF92228AD47B700AEDD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BABAF90428AD47B500AEDD66 /* Project object */;
+}
